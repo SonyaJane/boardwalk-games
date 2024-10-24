@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Macondo');
 
 :root {
-    --primary-font: 'Inter', sans-serif;
-    --secondary-font: 'Macondo', cursive;
-    --primary-color: #416a8e; /* Blue */
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 body {
@@ -14,6 +17,14 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font), cursive;
     color: var(--primary-color)
+}
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px
 }
 
 /* grid visualisation CSS for testing */
